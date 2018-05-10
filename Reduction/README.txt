@@ -1,4 +1,1 @@
-EECS 117 HW3
-
-Hikaru Kasai	50765935
-Jay Patel	77742251
+Created by Hikaru Kasai	and Jay Patel	
