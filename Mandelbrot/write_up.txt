@@ -1,0 +1,12 @@
+Which do you think is better? Why? Which intern do you offer a full-time job?
+HINT: The Mandelbrot function can require anywhere from 0 to 511 iterations per row.
+
+We think that they are about the same since each processor would be computing the same number of rows for both strategies. However Susie’s would be slightly better because the middle rows take longer to computer the color of pixel while the top and bottom few would take less time. Since, Susie’s algorithm is based on computing alternating rows based on offset, it is possible that the each processor will have variety of rows to compute. While for joe’s, since the algorithm gives each requested processor  a successive chunk of rows to compute on, it is possible that the middle rows of the mandelbrot image will take longer than others and so, that will slow down the overall efficiency of the processors which computes the middle section of rows of the image.  
+
+
+
+Compare the master/slave strategy with Susie/Joe’s implementation.
+Which do you think will scale to very large image sizes? Why?
+
+We think Susie/Joe’s implementation would scale better since the master/slave strategy would create much more overhead because of sending and receiving rows to compute. Thus it would be faster/more efficient to calculate chunks of rows in parallel and call gather for large image sizes. 
+
