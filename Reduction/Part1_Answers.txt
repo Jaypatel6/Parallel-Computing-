@@ -1,0 +1,21 @@
+EECS 117 HW3: Part 1
+
+Hikaru Kasai and Jay Patel
+
+The effective bandwidth is calculated by dividing the total (input size * dtype) by the execution time for kernel0. This represents the total throughput by the GPU.
+
+For example, our trial 5 has the output: 
+
+*** Trial 5 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute naive GPU reduction kernel: 0.003348 secs
+Effective bandwidth: 10.02 GB/s
+Time to execute naive CPU reduction: 0.116279 secs
+SUCCESS: GPU: 41.934433 	CPU: 41.934437
+
+BW = (N * sizeof(dtype))/time of execution
+
+
+ 

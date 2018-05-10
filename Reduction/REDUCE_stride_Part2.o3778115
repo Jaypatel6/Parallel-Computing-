@@ -1,0 +1,47 @@
+Script began: Mon Mar 5 09:23:57 PST 2018
+Node: compute-1-14.local
+Current directory: /data/users/kasaih/hw3
+
+=== Running 5 trials of stride ... ===
+*** Trial 1 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel_Part_2: 0.002217 secs
+Effective bandwidth: 15.14 GB/s
+Time to execute naive CPU reduction: 0.116158 secs
+SUCCESS: GPU: 41.936550  CPU: 41.936550
+*** Trial 2 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel_Part_2: 0.002217 secs
+Effective bandwidth: 15.14 GB/s
+Time to execute naive CPU reduction: 0.116089 secs
+SUCCESS: GPU: 41.936550  CPU: 41.936550
+*** Trial 3 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel_Part_2: 0.002216 secs
+Effective bandwidth: 15.14 GB/s
+Time to execute naive CPU reduction: 0.116092 secs
+SUCCESS: GPU: 41.957001  CPU: 41.957005
+*** Trial 4 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel_Part_2: 0.002218 secs
+Effective bandwidth: 15.13 GB/s
+Time to execute naive CPU reduction: 0.116079 secs
+SUCCESS: GPU: 41.957001  CPU: 41.957005
+*** Trial 5 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel_Part_2: 0.002236 secs
+Effective bandwidth: 15.01 GB/s
+Time to execute naive CPU reduction: 0.116002 secs
+SUCCESS: GPU: 41.959137  CPU: 41.959137
+
+=== Done! ===
